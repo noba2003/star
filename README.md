@@ -35,6 +35,7 @@ This moves the cursor to the next line after printing the stars for the current 
 ```
 # result
 <img src="https://github.com/user-attachments/assets/a036f8bd-b334-4b57-9495-a28082c2ed0b" />
+<br/>
 Here's an explanation of the updated pattern logic:
 
 Outer loop (for(i in 1..index!!)):
