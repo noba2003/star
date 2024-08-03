@@ -20,6 +20,7 @@ For example, if i is 1 (first level), it will print 1 star (1*2-1). If i is 2 (s
 println() statement:
 
 This moves the cursor to the next line after printing the stars for the current level.
+<br/>
 
 ``` for(i in 1..index!!){
         for(j in 1..index-i){
