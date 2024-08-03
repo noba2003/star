@@ -34,6 +34,36 @@ This moves the cursor to the next line after printing the stars for the current 
 ```
 # result
 <img src="https://github.com/user-attachments/assets/a036f8bd-b334-4b57-9495-a28082c2ed0b" />
+Here's an explanation of the updated pattern logic:
 
+Outer loop (for(i in 1..index!!)):
+
+
+This loop runs from 1 to index (inclusive). Each iteration represents a row of the triangle.
+First inner loop (for(j in 1..i)):
+
+This loop prints stars (*). The number of stars increases with each row.
+For example, if i is 1 (first row), it will print 1 star. If i is 2 (second row), it will print 2 stars, and so on.
+Second inner loop (for (k in 1..index - i)):
+
+This loop prints spaces. The number of spaces decreases with each row.
+For example, if index is 5 and i is 1 (first row), it will print 4 spaces (5-1). If i is 2 (second row), it will print 3 spaces (5-2), and so on.
+println() statement:
+
+```  for(i in 1..index!!){
+        for(j in 1..i){
+            print("*")
+        }
+        for (k in 1..index-i){
+            print(" ")
+        }
+        println()
+    }
+```
+
+This moves the cursor to the next line after printing the stars and spaces for the current row.
+
+
+<img src="https://github.com/user-attachments/assets/a036f8bd-b334-4b57-9495-a28082c2ed0b" />
 
 
