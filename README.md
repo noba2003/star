@@ -1,4 +1,4 @@
-
+انا استعنت ب chatgpt في documentation فقط
 ### Prompts the user to enter the number of levels for the pyramid.
 ``` println("Enter the number of stars ")```
 #### Reads the input and converts it to an integer.
@@ -64,6 +64,6 @@ println() statement:
 This moves the cursor to the next line after printing the stars and spaces for the current row.
 
 
-<img src="https://github.com/user-attachments/assets/a036f8bd-b334-4b57-9495-a28082c2ed0b" />
+<img src="https://github.com/user-attachments/assets/d533a16f-afc0-49f5-8b51-d97bf60c013f" />
 
 
